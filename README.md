@@ -1,4 +1,7 @@
-# church-register-pwa
+# Church Parish Register
+This is a digital Parish Register someone wanted for convenience, it simple really, just input the fields and press 'add entry'. There is a delete function and print function too.
+![image](https://github.com/user-attachments/assets/dd934bff-fde6-4770-aa34-2d4eebe0c925)
+
 
 ## Project setup
 ```
