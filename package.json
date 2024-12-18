@@ -17,14 +17,6 @@
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.13"
   },
-  "build": {
-    "mac": {
-      "target": ["dmg", "zip"],
-      "icon": "build/icon.icns",
-      "hardenedRuntime": true,
-      "gatekeeperAssess": true
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
