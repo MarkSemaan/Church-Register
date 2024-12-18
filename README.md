@@ -26,6 +26,7 @@ This application is designed to manage a church's parochial register digitally. 
 
 ## Project setup
 ```
+git clone https://github.com/MarkSemaan/Church-Register
 npm install
 ```
 
