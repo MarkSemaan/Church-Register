@@ -3,11 +3,11 @@ name: Build macOS App
 on:
   push:
     branches:
-      - main # Or your main development branch
+      - main 
 
 jobs:
   build-mac:
-    runs-on: macos-latest # Use the latest macOS version
+    runs-on: macos-latest 
 
     steps:
     - name: Checkout code
@@ -16,7 +16,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16' # Or your desired Node.js version
+        node-version: '16' 
 
     - name: Install dependencies
       run: npm install
@@ -25,7 +25,7 @@ jobs:
       run: npm run build
 
     - name: Build for macOS (Electron)
-      run: npm run electron:build -- --mac # For Electron
+      run: npm run electron:build -- --mac 
 
     - name: Upload artifact
       uses: actions/upload-artifact@v3
