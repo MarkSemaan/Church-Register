@@ -27,6 +27,7 @@ This application is designed to manage a church's parochial register digitally. 
 ## Project setup
 ```
 git clone https://github.com/MarkSemaan/Church-Register
+cd Church-Reguster
 npm install
 ```
 
@@ -38,6 +39,11 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+```
+
+### Build as an application 
+```
+npm run electron:build -mwl
 ```
 
 ### Lints and fixes files
