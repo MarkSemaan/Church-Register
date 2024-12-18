@@ -13,7 +13,9 @@
   },
   "main": "background.js",
   "dependencies": {
+    "@electron/universal": "^2.0.1",
     "core-js": "^3.8.3",
+    "prebuild": "^13.0.1",
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.13"
   },
@@ -24,7 +26,7 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-pwa": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "electron": "^13.0.0",
+    "electron": "^13.6.9",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
@@ -44,10 +46,17 @@
     },
     "rules": {}
   },
+  "workspaces": [
+    "packages/*"
+  ],
+
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "description": "This application is designed to manage a church's parochial register digitally. It allows authorized users to efficiently record and store important events such as baptisms, marriages, and funerals. The key features include:",
+  "author": "",
+  "license": "ISC"
 }

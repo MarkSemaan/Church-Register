@@ -10,6 +10,7 @@
 import RegisterForm from './components/RegisterForm.vue';
 import RegisterList from './components/RegisterList.vue';
 
+
 export default {
   components: {
     RegisterForm,
