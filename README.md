@@ -1,7 +1,7 @@
 # Church Parish Register
 ## Description
 
-This application is designed to manage a church's parochial register digitally. It allows authorized users to efficiently record and store important events such as baptisms, marriages, and funerals. The key features include:
+This application is designed to manage a church's parochial register digitally. It allows authorized users to efficiently record and store important events such as baptisms. The key features include:
 
 *   **Data Entry:** A user-friendly form to input new entries into the register with fields for:
     *   First Name
